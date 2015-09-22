@@ -1,0 +1,21 @@
+h5 {
+font: normal 5.2em Georgia, "Times New Roman", Times, serif !important;
+margin: 0 0 20px !important;
+padding: 10px 0 !important;
+font-weight: normal !important;
+text-align: center !important;
+text-shadow: 1px 1px 1px #ccc !important; /*--Не поддерживается IE--*/
+}
+h5 span {
+color: #cc0000 !important;
+font-weight: bold !important;
+
+}
+h5 small {
+font-size: 0.35em !important;
+text-transform: uppercase !important;
+color: #999 !important;
+font-family: Arial, Helvetica, sans-serif !important;
+text-shadow: none !important;
+display: block !important; /*--Выделяем для тэга small отдельную линию--*/
+}

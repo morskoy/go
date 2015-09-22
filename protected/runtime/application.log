@@ -1,0 +1,1248 @@
+2013/10/23 11:32:27 [warning] [application] Не удалось присвоить небезопасный атрибут "code_start" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 11:32:27 [warning] [application] Не удалось присвоить небезопасный атрибут "code_finish" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 11:41:15 [warning] [application] Не удалось присвоить небезопасный атрибут "code_start" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 11:41:15 [warning] [application] Не удалось присвоить небезопасный атрибут "code_finish" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 11:41:23 [warning] [application] Не удалось присвоить небезопасный атрибут "code_start" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 11:41:23 [warning] [application] Не удалось присвоить небезопасный атрибут "code_finish" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 11:42:34 [warning] [application] Не удалось присвоить небезопасный атрибут "code_start" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 11:42:34 [warning] [application] Не удалось присвоить небезопасный атрибут "code_finish" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 11:42:48 [warning] [application] Не удалось присвоить небезопасный атрибут "code_start" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 11:42:48 [warning] [application] Не удалось присвоить небезопасный атрибут "code_finish" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (175)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:29:11 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:29:11 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:30:04 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:30:04 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:30:07 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:30:07 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:31:53 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:31:53 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:31:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`avto`.`transport`, CONSTRAINT `transport_ibfk_5` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `transport` (`visible`, `country_start_id`, `city_start`, `postal_code_start`, `date_start`, `country_finish_id`, `city_finish`, `postal_code_finish`, `dop_info`, `contacts`, `date_add`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (76)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:31:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`avto`.`transport`, CONSTRAINT `transport_ibfk_5` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `transport` (`visible`, `country_start_id`, `city_start`, `postal_code_start`, `date_start`, `country_finish_id`, `city_finish`, `postal_code_finish`, `dop_info`, `contacts`, `date_add`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in /var/www/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/htdocs/cargo/protected/controllers/TransportController.php(76): CActiveRecord->save()
+#3 /var/www/framework/web/actions/CInlineAction.php(49): TransportController->actionAdd()
+#4 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/framework/web/CWebApplication.php(282): CController->run('add')
+#13 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('transport/add')
+#14 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/en/transport/add
+HTTP_REFERER=http://cargo/en/transport/add
+---
+2013/10/23 15:34:01 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:34:01 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:34:11 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:34:11 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 15:34:11 [error] [php] Trying to get property of non-object (/var/www/htdocs/cargo/protected/views/transport/view.php:45)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): TransportController->renderFile()
+#1 /var/www/framework/web/CController.php(782): TransportController->renderPartial()
+#2 /var/www/htdocs/cargo/protected/controllers/TransportController.php(57): TransportController->render()
+#3 unknown(0): TransportController->actionView()
+#4 /var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /var/www/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/framework/web/filters/CFilterChain.php(133): TransportController->runAction()
+#8 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/framework/web/filters/CInlineFilter.php(58): TransportController->filterAccessControl()
+#11 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/framework/web/CController.php(265): TransportController->runActionWithFilters()
+#14 /var/www/framework/web/CWebApplication.php(282): TransportController->run()
+#15 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/htdocs/cargo/index.php(13): CWebApplication->run()
+REQUEST_URI=/en/transport/22
+in /var/www/htdocs/cargo/protected/views/transport/view.php (45)
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (57)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:02:17 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:02:17 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:29:50 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:29:50 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (73)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:44:42 [warning] [application] Failed to set unsafe attribute "code_start" of "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:44:42 [warning] [application] Failed to set unsafe attribute "code_finish" of "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:45:38 [warning] [application] Failed to set unsafe attribute "code_start" of "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:45:38 [warning] [application] Failed to set unsafe attribute "code_finish" of "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:45:39 [error] [php] Trying to get property of non-object (/var/www/htdocs/cargo/protected/views/cargo/view.php:45)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): CargoController->renderFile()
+#1 /var/www/framework/web/CController.php(782): CargoController->renderPartial()
+#2 /var/www/htdocs/cargo/protected/controllers/CargoController.php(54): CargoController->render()
+#3 unknown(0): CargoController->actionView()
+#4 /var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /var/www/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/framework/web/filters/CFilterChain.php(133): CargoController->runAction()
+#8 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/framework/web/filters/CInlineFilter.php(58): CargoController->filterAccessControl()
+#11 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/framework/web/CController.php(265): CargoController->runActionWithFilters()
+#14 /var/www/framework/web/CWebApplication.php(282): CargoController->run()
+#15 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/htdocs/cargo/index.php(13): CWebApplication->run()
+REQUEST_URI=/en/cargo/7
+in /var/www/htdocs/cargo/protected/views/cargo/view.php (45)
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (54)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:45:48 [error] [php] Trying to get property of non-object (/var/www/htdocs/cargo/protected/views/cargo/view.php:45)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): CargoController->renderFile()
+#1 /var/www/framework/web/CController.php(782): CargoController->renderPartial()
+#2 /var/www/htdocs/cargo/protected/controllers/CargoController.php(54): CargoController->render()
+#3 unknown(0): CargoController->actionView()
+#4 /var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /var/www/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/framework/web/filters/CFilterChain.php(133): CargoController->runAction()
+#8 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/framework/web/filters/CInlineFilter.php(58): CargoController->filterAccessControl()
+#11 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/framework/web/CController.php(265): CargoController->runActionWithFilters()
+#14 /var/www/framework/web/CWebApplication.php(282): CargoController->run()
+#15 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/htdocs/cargo/index.php(13): CWebApplication->run()
+REQUEST_URI=/en/cargo/7
+in /var/www/htdocs/cargo/protected/views/cargo/view.php (45)
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (54)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:49:28 [warning] [application] Failed to set unsafe attribute "code_start" of "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:49:28 [warning] [application] Failed to set unsafe attribute "code_finish" of "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:51:45 [warning] [application] Failed to set unsafe attribute "code_start" of "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/23 16:51:45 [warning] [application] Failed to set unsafe attribute "code_finish" of "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/24 09:36:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/reviews
+HTTP_REFERER=http://cargo/
+---
+2013/10/24 09:36:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "information".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('information')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('information')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/informatio...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/information
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/10/24 09:36:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://cargo/site/information
+---
+2013/10/24 09:36:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://cargo/site/information
+---
+2013/10/24 09:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://cargo/site/information
+---
+2013/10/24 09:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://cargo/site/information
+---
+2013/10/24 09:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://cargo/site/information
+---
+2013/10/24 10:41:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/en/site/reviews
+HTTP_REFERER=http://cargo/en/transport/find
+---
+2013/10/24 10:41:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forum".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('forum')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('forum')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/forum')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/en/site/forum
+HTTP_REFERER=http://cargo/en/site/reviews
+---
+2013/10/24 13:40:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/en/site/reviews
+HTTP_REFERER=http://cargo/en/
+---
+2013/10/24 13:40:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forum".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('forum')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('forum')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/forum')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/en/site/forum
+HTTP_REFERER=http://cargo/en/site/reviews
+---
+2013/10/24 13:42:18 [warning] [application] Не удалось присвоить небезопасный атрибут "code_start" класса "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/24 13:42:18 [warning] [application] Не удалось присвоить небезопасный атрибут "code_finish" класса "Cargo".
+in /var/www/htdocs/cargo/protected/controllers/CargoController.php (70)
+in /var/www/htdocs/cargo/index.php (13)
+2013/10/24 14:46:06 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.bootstrap.components.Bootstrap" неверен. Убедитесь, что он указывает на существующий PHP файл.' in /var/www/framework/YiiBase.php:322
+Stack trace:
+#0 /var/www/framework/YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 /var/www/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /var/www/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /var/www/framework/YiiBase.php(125): CApplication->__construct('/var/www/htdocs...')
+#5 /var/www/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/var/www/htdocs...')
+#6 /var/www/htdocs/cargo/index.php(13): YiiBase::createWebApplication('/var/www/htdocs...')
+#7 {main}
+REQUEST_URI=/cargo/index
+HTTP_REFERER=http://cargo/transport/index
+---
+2013/10/24 15:47:52 [error] [exception.CException] exception 'CException' with message 'Контроллер TransportController не может найти представление "admingrid".' in /var/www/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/htdocs/cargo/protected/controllers/TransportController.php(147): CController->renderPartial('admingrid', Array)
+#1 /var/www/framework/web/actions/CInlineAction.php(49): TransportController->actionIndex()
+#2 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#11 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('transport/index')
+#12 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/transport/index?Transport_sort=date_start&ajax=yw0
+HTTP_REFERER=http://cargo/transport/index
+---
+2013/10/25 11:03:41 [error] [exception.CException] exception 'CException' with message 'Контроллер CargoController не может найти представление "indexgrid".' in /var/www/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/htdocs/cargo/protected/views/cargo/index.php(11): CController->renderPartial('indexgrid', Array)
+#1 /var/www/framework/web/CBaseController.php(126): require('/var/www/htdocs...')
+#2 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/htdocs...', Array, true)
+#3 /var/www/framework/web/CController.php(869): CBaseController->renderFile('/var/www/htdocs...', Array, true)
+#4 /var/www/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#5 /var/www/htdocs/cargo/protected/controllers/CargoController.php(135): CController->render('index', Array)
+#6 /var/www/framework/web/actions/CInlineAction.php(49): CargoController->actionIndex()
+#7 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#14 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('cargo/index')
+#17 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/cargo/index
+HTTP_REFERER=http://cargo/transport/index
+---
+2013/11/05 12:03:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "forum".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('forum')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('forum')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/forum')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/forum
+HTTP_REFERER=http://cargo/transport/index
+---
+2013/11/05 12:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/reviews
+HTTP_REFERER=http://cargo/site/forum
+---
+2013/11/05 12:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/05 12:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "rules".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('rules')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('rules')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/rules')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/rules
+HTTP_REFERER=http://cargo/site/about
+---
+2013/11/11 12:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/
+---
+2013/11/11 12:01:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 12:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 12:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 12:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 12:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 12:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 12:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/
+HTTP_REFERER=http://cargo/en/transport/index
+---
+2013/11/11 12:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/
+HTTP_REFERER=http://cargo/en/transport/index
+---
+2013/11/11 12:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 12:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 12:33:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ru".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ru')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ru/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 12:52:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rules".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('rules')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('rules')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/rules')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/en/site/rules
+HTTP_REFERER=http://cargo/en/
+---
+2013/11/11 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/en/site/about
+HTTP_REFERER=http://cargo/en/
+---
+2013/11/11 13:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ru/site/reviews
+HTTP_REFERER=http://cargo/ru/site/index
+---
+2013/11/11 13:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "forum".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('forum')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('forum')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/forum')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ru/site/forum
+HTTP_REFERER=http://cargo/ru/contact
+---
+2013/11/11 13:34:47 [error] [php] Array to string conversion (/var/www/framework/YiiBase.php:612)
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 13:40:18 [error] [php] Array to string conversion (/var/www/framework/YiiBase.php:612)
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 13:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:41:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:41:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:41:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:41:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:41:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 13:42:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:42:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 13:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:44:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/11/11 13:44:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 13:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/
+HTTP_REFERER=http://cargo/en/
+---
+2013/11/11 13:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/
+HTTP_REFERER=http://cargo/en/
+---
+2013/11/11 13:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/en/site/reviews
+HTTP_REFERER=http://cargo/en/
+---
+2013/11/11 13:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/reviews
+HTTP_REFERER=http://cargo/en/site/reviews
+---
+2013/11/11 14:16:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 14:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 14:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 14:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('en/site/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 14:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 14:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 14:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 14:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 14:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 14:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/site/reviews
+---
+2013/11/11 15:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/site/index".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 15:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ru/site/reviews
+HTTP_REFERER=http://cargo/ru/transport/index
+---
+2013/11/11 15:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ru/site/reviews
+HTTP_REFERER=http://cargo/ru/site/reviews
+---
+2013/11/11 15:32:38 [error] [exception.CException] exception 'CException' with message 'CargoController cannot find the requested view "indexgrid".' in /var/www/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/htdocs/cargo/protected/views/cargo/index.php(11): CController->renderPartial('indexgrid', Array)
+#1 /var/www/framework/web/CBaseController.php(126): require('/var/www/htdocs...')
+#2 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/htdocs...', Array, true)
+#3 /var/www/framework/web/CController.php(869): CBaseController->renderFile('/var/www/htdocs...', Array, true)
+#4 /var/www/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#5 /var/www/htdocs/cargo/protected/controllers/CargoController.php(135): CController->render('index', Array)
+#6 /var/www/framework/web/actions/CInlineAction.php(49): CargoController->actionIndex()
+#7 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#14 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('cargo/index')
+#17 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/cargo/index
+HTTP_REFERER=http://cargo/transport/index
+---
+2013/11/11 15:32:49 [error] [exception.CException] exception 'CException' with message 'CargoController cannot find the requested view "indexgrid".' in /var/www/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/htdocs/cargo/protected/views/cargo/index.php(11): CController->renderPartial('indexgrid', Array)
+#1 /var/www/framework/web/CBaseController.php(126): require('/var/www/htdocs...')
+#2 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/htdocs...', Array, true)
+#3 /var/www/framework/web/CController.php(869): CBaseController->renderFile('/var/www/htdocs...', Array, true)
+#4 /var/www/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#5 /var/www/htdocs/cargo/protected/controllers/CargoController.php(135): CController->render('index', Array)
+#6 /var/www/framework/web/actions/CInlineAction.php(49): CargoController->actionIndex()
+#7 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#14 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('cargo/index')
+#17 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/cargo/index
+HTTP_REFERER=http://cargo/transport/index
+---
+2013/11/11 15:33:15 [error] [exception.CException] exception 'CException' with message 'CargoController cannot find the requested view "indexgrid".' in /var/www/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/htdocs/cargo/protected/views/cargo/index.php(11): CController->renderPartial('indexgrid', Array)
+#1 /var/www/framework/web/CBaseController.php(126): require('/var/www/htdocs...')
+#2 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/htdocs...', Array, true)
+#3 /var/www/framework/web/CController.php(869): CBaseController->renderFile('/var/www/htdocs...', Array, true)
+#4 /var/www/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#5 /var/www/htdocs/cargo/protected/controllers/CargoController.php(135): CController->render('index', Array)
+#6 /var/www/framework/web/actions/CInlineAction.php(49): CargoController->actionIndex()
+#7 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#14 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('cargo/index')
+#17 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/cargo/index
+HTTP_REFERER=http://cargo/
+---
+2013/11/11 15:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ru/site/about
+HTTP_REFERER=http://cargo/ru/transport/find
+---
+2013/11/11 15:35:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "forum".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('forum')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('forum')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/forum')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ru/site/forum
+HTTP_REFERER=http://cargo/ru/contact
+---
+2013/11/11 15:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ru/site/reviews
+HTTP_REFERER=http://cargo/ru/site/forum
+---
+2013/11/11 15:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ru/site/about
+HTTP_REFERER=http://cargo/ru/site/reviews
+---
+2013/11/11 15:35:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://cargo/transport/index
+---
+2013/11/11 15:35:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/reviews
+HTTP_REFERER=http://cargo/site/about
+---
+2013/11/11 15:36:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forum".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('forum')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('forum')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/forum')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/forum
+HTTP_REFERER=http://cargo/contact
+---
+2013/11/11 15:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/reviews
+HTTP_REFERER=http://cargo/site/forum
+---
+2013/11/11 16:01:04 [error] [php] Undefined variable: order_country (/var/www/htdocs/cargo/protected/views/transport/_search.php:15)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): TransportController->renderFile()
+#1 /var/www/htdocs/cargo/protected/views/transport/find.php(25): TransportController->renderPartial()
+#2 /var/www/framework/web/CBaseController.php(126): require()
+#3 /var/www/framework/web/CBaseController.php(95): TransportController->renderInternal()
+#4 /var/www/framework/web/CController.php(869): TransportController->renderFile()
+#5 /var/www/framework/web/CController.php(782): TransportController->renderPartial()
+#6 /var/www/htdocs/cargo/protected/controllers/TransportController.php(186): TransportController->render()
+#7 /var/www/framework/web/actions/CInlineAction.php(49): TransportController->actionFind()
+#8 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/framework/web/filters/CFilterChain.php(133): TransportController->runAction()
+#10 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/framework/web/filters/CInlineFilter.php(58): TransportController->filterAccessControl()
+#13 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/framework/web/CController.php(265): TransportController->runActionWithFilters()
+#16 /var/www/framework/web/CWebApplication.php(282): TransportController->run()
+#17 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /var/www/htdocs/cargo/index.php(13): CWebApplication->run()
+REQUEST_URI=/ru/transport/find
+in /var/www/htdocs/cargo/protected/views/transport/_search.php (15)
+in /var/www/htdocs/cargo/protected/views/transport/find.php (25)
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (186)
+2013/11/11 16:02:36 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:02:36 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:07:47 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:07:47 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:08:06 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:08:06 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:08:20 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:08:20 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:13:17 [warning] [application] Не удалось присвоить небезопасный атрибут "code_start" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:13:17 [warning] [application] Не удалось присвоить небезопасный атрибут "code_finish" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:15:42 [warning] [application] Не удалось присвоить небезопасный атрибут "code_start" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:15:42 [warning] [application] Не удалось присвоить небезопасный атрибут "code_finish" класса "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (185)
+in /var/www/htdocs/cargo/index.php (13)
+2013/11/11 16:15:44 [error] [php] Undefined offset: 1 (/var/www/htdocs/cargo/protected/models/Transport.php:162)
+Stack trace:
+#0 /var/www/framework/web/CBaseController.php(126): require()
+#1 /var/www/framework/web/CBaseController.php(95): TransportController->renderInternal()
+#2 /var/www/framework/web/CController.php(869): TransportController->renderFile()
+#3 /var/www/framework/web/CController.php(782): TransportController->renderPartial()
+#4 /var/www/htdocs/cargo/protected/controllers/TransportController.php(186): TransportController->render()
+#5 /var/www/framework/web/actions/CInlineAction.php(49): TransportController->actionFind()
+#6 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/framework/web/filters/CFilterChain.php(133): TransportController->runAction()
+#8 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/framework/web/filters/CInlineFilter.php(58): TransportController->filterAccessControl()
+#11 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/framework/web/CController.php(265): TransportController->runActionWithFilters()
+#14 /var/www/framework/web/CWebApplication.php(282): TransportController->run()
+#15 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/htdocs/cargo/index.php(13): CWebApplication->run()
+REQUEST_URI=/ru/transport/find?Transport%5Bcountry_start_id%5D=216&Transport%5Bcode_start%5D=216&Transport%5Bcity_start%5D=&Transport%5Bpostal_code_start%5D=&Transport%5Bdate_start%5D=12-11-2013&Transport%5Bcountry_finish_id%5D=238&Transport%5Bcode_finish%5D=257&Transport%5Bcity_finish%5D=&Transport%5Bpostal_code_finish%5D=&yt0=
+in /var/www/htdocs/cargo/protected/models/Transport.php (162)
+in /var/www/htdocs/cargo/protected/models/Transport.php (125)
+in /var/www/htdocs/cargo/protected/views/transport/find.php (39)
+2013/11/18 11:43:34 [error] [exception.CException] exception 'CException' with message 'CargoController cannot find the requested view "indexgrid".' in /var/www/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/htdocs/cargo/protected/views/cargo/index.php(11): CController->renderPartial('indexgrid', Array)
+#1 /var/www/framework/web/CBaseController.php(126): require('/var/www/htdocs...')
+#2 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/htdocs...', Array, true)
+#3 /var/www/framework/web/CController.php(869): CBaseController->renderFile('/var/www/htdocs...', Array, true)
+#4 /var/www/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#5 /var/www/htdocs/cargo/protected/controllers/CargoController.php(135): CController->render('index', Array)
+#6 /var/www/framework/web/actions/CInlineAction.php(49): CargoController->actionIndex()
+#7 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#14 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('cargo/index')
+#17 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/cargo/index
+HTTP_REFERER=http://cargo/transport/index
+---
+2014/02/25 11:48:16 [error] [php] Undefined variable: dop (/var/www/htdocs/cargo/protected/views/transport/index.php:87)
+Stack trace:
+#0 /var/www/framework/zii/widgets/grid/CDataColumn.php(137): TbDataColumn->evaluateExpression()
+#1 /var/www/framework/zii/widgets/grid/CGridColumn.php(151): TbDataColumn->renderDataCellContent()
+#2 /var/www/htdocs/cargo/protected/extensions/bootstrap/widgets/TbExtendedGridView.php(563): TbDataColumn->renderDataCell()
+#3 /var/www/framework/zii/widgets/grid/CGridView.php(572): TbExtendedGridView->renderTableRow()
+#4 /var/www/framework/zii/widgets/grid/CGridView.php(482): TbExtendedGridView->renderTableBody()
+#5 /var/www/framework/zii/widgets/CBaseListView.php(167): TbExtendedGridView->renderItems()
+#6 unknown(0): TbExtendedGridView->renderSection()
+#7 /var/www/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback()
+#8 /var/www/htdocs/cargo/protected/extensions/bootstrap/widgets/TbExtendedGridView.php(240): TbExtendedGridView->renderContent()
+#9 /var/www/framework/zii/widgets/CBaseListView.php(135): TbExtendedGridView->renderContent()
+#10 /var/www/framework/web/CBaseController.php(173): TbExtendedGridView->run()
+#11 /var/www/htdocs/cargo/protected/views/transport/index.php(103): TransportController->widget()
+#12 /var/www/framework/web/CBaseController.php(126): require()
+#13 /var/www/framework/web/CBaseController.php(95): TransportController->renderInternal()
+#14 /var/www/framework/web/CController.php(869): TransportController->renderFile()
+#15 /var/www/framework/web/CController.php(782): TransportController->renderPartial()
+#16 /var/www/htdocs/cargo/protected/controllers/TransportController.php(146): TransportController->render()
+#17 /var/www/framework/web/actions/CInlineAction.php(49): TransportController->actionIndex()
+#18 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /var/www/framework/web/filters/CFilterChain.php(133): TransportController->runAction()
+#20 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#21 /var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#22 /var/www/framework/web/filters/CInlineFilter.php(58): TransportController->filterAccessControl()
+#23 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#24 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#25 /var/www/framework/web/CController.php(265): TransportController->runActionWithFilters()
+#26 /var/www/framework/web/CWebApplication.php(282): TransportController->run()
+#27 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#28 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#29 /var/www/htdocs/cargo/index.php(13): CWebApplication->run()
+REQUEST_URI=/transport/index
+in /var/www/htdocs/cargo/protected/views/transport/index.php (87)
+in /var/www/htdocs/cargo/protected/extensions/bootstrap/widgets/TbExtendedGridView.php (563)
+in /var/www/htdocs/cargo/protected/extensions/bootstrap/widgets/TbExtendedGridView.php (240)
+2014/02/25 11:56:26 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (176)
+in /var/www/htdocs/cargo/index.php (13)
+2014/02/25 11:56:26 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (176)
+in /var/www/htdocs/cargo/index.php (13)
+2014/07/29 14:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://cargo/transport/find
+---
+2014/07/29 14:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rules".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('rules')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('rules')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/rules')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/rules
+HTTP_REFERER=http://cargo/site/about
+---
+2014/07/29 14:22:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reviews".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('reviews')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('reviews')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reviews')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/reviews
+HTTP_REFERER=http://cargo/site/rules
+---
+2014/07/29 14:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forum".' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('forum')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('forum')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/forum')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/htdocs/cargo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/forum
+HTTP_REFERER=http://cargo/site/reviews
+---
+2014/07/29 14:22:15 [warning] [application] Failed to set unsafe attribute "code_start" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (176)
+in /var/www/htdocs/cargo/index.php (13)
+2014/07/29 14:22:15 [warning] [application] Failed to set unsafe attribute "code_finish" of "Transport".
+in /var/www/htdocs/cargo/protected/controllers/TransportController.php (176)
+in /var/www/htdocs/cargo/index.php (13)
